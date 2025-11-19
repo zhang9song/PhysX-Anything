@@ -86,6 +86,22 @@ python 4_simready_gen.py        # convert to URDF & XML
 
 **Note**: Although our method can generate parts with physical deformable parameters, the deformable components are not stable in MuJoCo. Therefore, we recommend setting the deformable flag to 0 to obtain more reliable simulation results.
 
+### Evaluation
+
+1. Render the generated URDF files
+
+```bash
+python render_urdf.py
+```
+
+2. Run the VLM-based evaluations.
+
+```bash
+python evaluation_kine.py
+```
+
+**Note**: For all other physical attributes, PhysX-Anything adopts the same settings as [PhysX-3D](https://github.com/ziangcao0312/PhysX-3D).
+
 ## PhysX-Mobility
 
 For more details about our proposed dataset including dataset structure and annotation, please see this [PhysX-Mobility](https://huggingface.co/datasets/Caoza/PhysX-Mobility) and [PhysXNet](https://huggingface.co/datasets/Caoza/PhysX-3D).
