@@ -55,6 +55,14 @@ pip install qwen-vl-utils
 pip install 'accelerate>=0.26.0'
 ```
 
+**Note**: We release the `requirements.txt` file. You can install all dependencies by running:
+
+```bash
+conda create -n physx-anything python=3.10
+conda activate physx-anything
+pip install -r requirements.txt
+```
+
 ### Inference
 
 1. Download the pre-train model from [huggingface_v1](https://huggingface.co/Caoza/PhysX-Anything).
