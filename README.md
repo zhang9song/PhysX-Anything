@@ -65,7 +65,7 @@ pip install -r requirements.txt
 
 ### Inference
 
-1. Download the pre-train model from [huggingface_v1](https://huggingface.co/Caoza/PhysX-Anything).
+1. Download the pre-train model from [huggingface_v2](https://huggingface.co/Caoza/PhysX-Anything).
 
 ```bash
 python download.py
